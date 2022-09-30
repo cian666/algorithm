@@ -16,11 +16,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5ad30d7-83ba-409a-9908-9b4627d61810" name="Default Changelist" comment="初始版本">
-      <change afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/BubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/utils/Utils.java" afterDir="false" />
+    <list default="true" id="e5ad30d7-83ba-409a-9908-9b4627d61810" name="Default Changelist" comment="Sort">
+      <change afterPath="$PROJECT_DIR$/algorithm-sort/src/test/java/cn/cian/basic/TestSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/QucikSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/QucikSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/ShellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.BubleSort">
+  <component name="RunManager" selected="JUnit.TestSort.test">
     <configuration name="BubleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm-sort" />
       <extension name="coverage">
@@ -95,8 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSort.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm-sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.cian.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.cian.basic" />
+      <option name="MAIN_CLASS_NAME" value="cn.cian.basic.TestSort" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSort.test" />
         <item itemvalue="JUnit.BubleSort" />
         <item itemvalue="JUnit.BubleSort.test" />
       </list>
@@ -112,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664514806603</updated>
-      <workItem from="1664514808944" duration="1971000" />
+      <workItem from="1664514808944" duration="2916000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1664515237221</created>
@@ -121,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664515237222</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sort">
+      <created>1664518571474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664518571474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Sort">
+      <created>1664518721781</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664518721781</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,29 +187,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始版本" />
+    <MESSAGE value="Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort" />
   </component>
   <component name="WindowStateProjectService">
     <state x="279" y="110" key="FileChooserDialogImpl" timestamp="1664515199949">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="279" y="110" key="FileChooserDialogImpl/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664515199949" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1664516202171">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom" timestamp="1664519350584">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664516202171" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1664516202171">
+    <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664519350584" />
+    <state width="1493" height="206" key="GridCell.Tab.0.center" timestamp="1664519350584">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664516202171" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1664516202170">
+    <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664519350584" />
+    <state width="1493" height="206" key="GridCell.Tab.0.left" timestamp="1664519350584">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664516202170" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1664516202171">
+    <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664519350584" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right" timestamp="1664519350584">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664516202171" />
+    <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.816/1920.0.1920.1032@0.0.1536.816" timestamp="1664519350584" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1664514997832">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
