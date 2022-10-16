@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="algorithm-slideWindow" />
+        <module name="algorithm-binarySearch" />
+        <module name="algorithm-dynamic" />
+        <module name="algorithm-greedy" />
+        <module name="algorithm-graph" />
+        <module name="algorithm-backTracking" />
+        <module name="algorithm-sort" />
+        <module name="algorithm-doublePointer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algorithm" target="1.8" />
+      <module name="algorithm-backTracking" target="1.8" />
+      <module name="algorithm-binarySearch" target="1.8" />
+      <module name="algorithm-doublePointer" target="1.8" />
+      <module name="algorithm-dynamic" target="1.8" />
+      <module name="algorithm-graph" target="1.8" />
+      <module name="algorithm-greedy" target="1.8" />
+      <module name="algorithm-slideWindow" target="1.8" />
+      <module name="algorithm-sort" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithm.iml" filepath="$PROJECT_DIR$/.idea/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-backTracking/algorithm-backTracking.iml" filepath="$PROJECT_DIR$/algorithm-backTracking/algorithm-backTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-binarySearch/algorithm-binarySearch.iml" filepath="$PROJECT_DIR$/algorithm-binarySearch/algorithm-binarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-doublePointer/algorithm-doublePointer.iml" filepath="$PROJECT_DIR$/algorithm-doublePointer/algorithm-doublePointer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-dynamic/algorithm-dynamic.iml" filepath="$PROJECT_DIR$/algorithm-dynamic/algorithm-dynamic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-graph/algorithm-graph.iml" filepath="$PROJECT_DIR$/algorithm-graph/algorithm-graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-greedy/algorithm-greedy.iml" filepath="$PROJECT_DIR$/algorithm-greedy/algorithm-greedy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-slideWindow/algorithm-slideWindow.iml" filepath="$PROJECT_DIR$/algorithm-slideWindow/algorithm-slideWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithm-sort/algorithm-sort.iml" filepath="$PROJECT_DIR$/algorithm-sort/algorithm-sort.iml" />
+    </modules>
+  </component>
+</project>
