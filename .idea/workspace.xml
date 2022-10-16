@@ -16,61 +16,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5ad30d7-83ba-409a-9908-9b4627d61810" name="Default Changelist" comment="Sort">
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P17_LetterCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P216_CombinationSum3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P377_CombinationSum4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P39_CombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P40_CombinationSum2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/combination/P77_Combine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/permute/P46_Permute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-backTracking/src/main/java/cn/cian/permute/P47_Permute2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/combination/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P153_SearchRorationMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P154_SearchRorationMin2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P275_HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P33_SearchRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P35_SearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P37_SearchRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-binarySearch/src/main/java/cn/cian/leetcode/basic/P81_SearchRotation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P11_MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P15_ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P16_ThreeSumClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P18_FourSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P611_TriangleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-doublePointer/src/main/java/cn/cian/endTail/P633_JudgeSquareSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P10_IsMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P198_Rob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P263_NthUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P313_NthSuperUglyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P337_TreeRob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P338_CountBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P403_CanCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P45_Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P576_FindPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/P91_NumDecodings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-dynamic/src/main/java/cn/cian/linear/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-graph/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-graph/src/main/java/cn/cian/combination/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-graph/src/main/java/cn/cian/dijkstra/P743_NetworkDelayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-greedy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-greedy/src/main/java/cn/cian/greedy/P376_WiggleMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-greedy/src/main/java/cn/cian/greedy/P455_FindContentChildren.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/BubleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/BubleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/QucikSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/QucikSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/basic/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/main/java/cn/cian/combination/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/src/test/java/cn/cian/basic/TestSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/src/test/java/cn/cian/combination/TestSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm-sort/target/test-classes/cn/cian/basic/TestSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm-sort/target/test-classes/cn/cian/basic/TestSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e5ad30d7-83ba-409a-9908-9b4627d61810" name="Default Changelist" comment="Sort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +183,7 @@
       <workItem from="1665718359859" duration="1000000" />
       <workItem from="1665887676773" duration="7924000" />
       <workItem from="1665923443731" duration="1256000" />
-      <workItem from="1665962814197" duration="391000" />
+      <workItem from="1665962814197" duration="709000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本">
       <created>1664515237221</created>
@@ -267,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664519413185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sort">
+      <created>1665963460528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665963460528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
