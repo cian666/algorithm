@@ -10,7 +10,9 @@ public class BinarySearch {
     }
     //循环l <=  r  那么结束的时候 就是  l = r +1
     //有两种极端的情况  l = len   r = -1 需要加以注意
-
+    public static void main(String[] args) {
+        System.out.println("HHHH");
+    }
     public int binartSearch(int[] arr,int target){
         int l = 0, r = arr.length -1;
         while(l <= r){

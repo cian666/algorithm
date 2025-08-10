@@ -5,8 +5,11 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class P15_ThreeSum {
+
+
     @Test
     public void test(){
         int[] arr = {-1,0,1,2,-1,-4};

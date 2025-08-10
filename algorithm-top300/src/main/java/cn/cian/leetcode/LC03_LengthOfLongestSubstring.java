@@ -6,7 +6,7 @@ public class LC03_LengthOfLongestSubstring {
     public static void main(String[] args) {
         lengthOfLongestSubstring("pwwkew");
     }
-    //动态规划思路
+
     public static int lengthOfLongestSubstring(String s) {
         int[] map = new int[256];
         Arrays.fill(map,-1);
@@ -20,7 +20,7 @@ public class LC03_LengthOfLongestSubstring {
         return ans;
     }
 
-    //滑动窗口
+
     public static int lengthOfLongestSubstring0(String s) {
         return 0;
     }
