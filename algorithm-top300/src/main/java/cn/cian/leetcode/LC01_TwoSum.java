@@ -8,11 +8,31 @@ public class LC01_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            if(map.containsKey(target - nums[i])){
-                return new int[]{map.get(target - nums[i]),i};
+            if (map.containsKey(target - nums[i])) {
+                return new int[]{map.get(target - nums[i]), i};
             }
-            map.put(nums[i],i);
+            map.put(nums[i], i);
         }
-        return new int[]{0,0};
+        return new int[]{0, 0};
     }
+
+    /**
+     * 两数之和 复刷
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
+    public int[] twoSum02(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(target - nums[i])) {
+                return new int[]{map.get(target - nums[i]), i};
+            }
+            map.put(nums[i], i);
+        }
+        return new int[]{0, 0};
+    }
+
+
 }
